@@ -24,10 +24,10 @@ function App() {
   }
   }, [searchTerm])
 
-  const handleSearch = (e, term) => {
+  const handleSearch = (e: any, term: any) => {
     e.preventDefault()
     setSearchTerm(term)
-  }
+}
 
   return (
     <div className="App">
